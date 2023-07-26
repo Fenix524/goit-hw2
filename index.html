@@ -4,35 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Top line with control elements -->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+      <nav class="header-navigation">
+        <a href="./index.html" class="logo header-logo"
+          >Web<span class="dark">Studio</span></a
+        >
+        <ul class="header-nav-item-list">
           <li>
-            <a href="#">Studio</a>
+            <a href="#" class="header-nav-item">Studio</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="./portfolio.html" class="header-nav-item">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#" class="header-nav-item">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="web-link">
-              info@devstudio.com
-            </a>
+      <address class="header-contacts">
+        <ul class="header-contacts-item-list">
+          <li class="header-contacts-item">
+            <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
           </li>
-          <li>
-            <a href="tel:+110001111111" class="telephone-number">
-              +11 (000) 111-11-11
-            </a>
+          <li class="header-contacts-item">
+            <a href="tel:+110001111111"> +11 (000) 111-11-11 </a>
           </li>
         </ul>
       </address>
@@ -40,39 +40,41 @@
 
     <main>
       <!-- main information -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="main-info">
+        <h1 class="main-info-title main-title">
+          Effective Solutions for Your Business
+        </h1>
+        <button type="button" class="main-info-button">Order Service</button>
       </section>
 
       <!-- Advantages -->
-      <section>
-        <h2>Advantages</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="advantages">
+        <h2 class="advantages-title">Advantages</h2>
+        <ul class="list-adventages">
+          <li class="list-adventages-item">
+            <h3 class="list-adventages-item-title">Strategy</h3>
+            <p class="list-adventages-item-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="list-adventages-item">
+            <h3 class="list-adventages-item-title">Punctuality</h3>
+            <p class="list-adventages-item-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="list-adventages-item">
+            <h3 class="list-adventages-item-title">Diligence</h3>
+            <p class="list-adventages-item-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="list-adventages-item">
+            <h3 class="list-adventages-item-title">Technologies</h3>
+            <p class="list-adventages-item-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -80,27 +82,27 @@
         </ul>
       </section>
 
-      <!-- What are we doing -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <!-- What we do -->
+      <section class="WhatWeDo">
+        <h2 class="WhatWeDo-title">What are we doing</h2>
+        <ul class="WhatWeDo-list">
+          <li class="WhatWeDo-list-item">
             <img
-              src="./images/What-are-we-doing/01.jpg"
+              src="./images/MainPage/What-are-we-doing/01.jpg"
               alt="monitor"
               width="360"
             />
           </li>
-          <li>
+          <li class="WhatWeDo-list-item">
             <img
-              src="./images/What-are-we-doing/02.jpg"
+              src="./images/MainPage/What-are-we-doing/02.jpg"
               alt="phone"
               width="360"
             />
           </li>
-          <li>
+          <li class="WhatWeDo-list-item">
             <img
-              src="./images/What-are-we-doing/03.jpg"
+              src="./images/MainPage/What-are-we-doing/03.jpg"
               alt="phone in hend"
               width="360"
             />
@@ -109,35 +111,39 @@
       </section>
 
       <!-- Our Team -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="our-team">
+        <h2 class="our-team-title">Our Team</h2>
+        <ul class="our-team-list-employees">
+          <li class="our-team-list-employees-item">
             <img
-              src="./images/Our-Team/01.jpg"
+              src="./images/MainPage/Our-Team/01.jpg"
               alt="Mark Guerrero"
               width="264"
             />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img src="./images/Our-Team/02.jpg" alt="Tom Ford" width="264" />
+          <li class="our-team-list-employees-item">
+            <img
+              src="./images/MainPage/Our-Team/02.jpg"
+              alt="Tom Ford"
+              width="264"
+            />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-list-employees-item">
             <img
-              src="./images/Our-Team/03.jpg"
+              src="./images/MainPage/Our-Team/03.jpg"
               alt="Camila Garcia"
               width="264"
             />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="our-team-list-employees-item">
             <img
-              src="./images/Our-Team/04.jpg"
+              src="./images/MainPage/Our-Team/04.jpg"
               alt="Daniel Wilson"
               width="264"
             />
@@ -148,10 +154,12 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- footer info -->
-      <a href="./index.html">WebStudio</a>
-      <p>
+      <a class="logo footer-logo" href="./index.html"
+        >Web<span class="light">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
