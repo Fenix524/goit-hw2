@@ -13,84 +13,199 @@
 
   --main-text-color: #434455;
   --main-title-color: #2e2f42;
+
+  --hover-link-color: #404bbf;
 }
-*,
-*::after,
-*::before {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  box-sizing: border-box;
-}
-body {
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Global classes
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+body{
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
 }
-a {
+
+.link {
   text-decoration: none;
   color: inherit;
 }
-ul,
-ol,
-li {
+.list {
   list-style: none;
+}
+
+.title1, .title2, .title3{
+  color: var(--main-title-color);
+  font-weight: 700;
+}
+.title1 {
+  font-size: var(--title-h1-font-size);    
+}
+.title2 {
+  font-size: var(--title-h2-font-size);
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.title3 {
+  font-size: var(--title-h3-font-size);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .logo {
   font-family: var(--supportive-font-page);
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo .dark {
+.logo > .dark-style {
   color: #2e2f42;
 }
-.logo .light {
+.logo > .light-style {
   color: #f4f4fd;
 }
-
-h1 {
-  font-size: var(--title-h1-font-size);
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Header section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.header {
 }
-h2 {
-  font-size: var(--title-h2-font-size);
+.header-navigation {
 }
-h3 {
-  font-size: var(--title-h3-font-size);
+.header-logo {
 }
-/*---------------- header -----------------*/
-
-header {
-  background-color: var(--main-bg-color);
+.header-navigation-list {
 }
-.header-nav-item {
+.header-navigation-item {
+  
+}
+.header-navigation-link {
   font-weight: 500;
-  margin: 0 20px;
+}
+.header-navigation-link:hover,
+.header-navigation-link:active {
+  color: var(--hover-link-color);
+}
+
+.header-contacts {
+}
+.header-contacts-list {
+  font-weight: 400;
+  font-style: normal; 
 }
 .header-contacts-item {
-  margin: 0 20px;
 }
-/*------------------ main info block ------------------- */
-.main-info {
-  background-color: var(--supportive-bg-color);
-  height: 600px;
+.header-contacts-link {
 }
-.main-info-title {
-  color: #fff;
-  max-width: 520px;
-}
-.main-info-button {
-  padding: 16px 32px;
-  background-color: #4d5ae5;
-  border-radius: 4px;
-
-  color: #fff;
-  font-weight: 500;
+.header-navigation-link,
+.header-contacts-link {  
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-footer {
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Hero section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.hero {
   background-color: var(--supportive-bg-color);
+}
+.hero-title {
+  color: #fff;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  cursor: pointer;
+  background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #404BBF;
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Advantages section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-list-title {
+}
+.advantages-list-description {
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Services section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.services {
+}
+.services-title {
+}
+.services-list {
+}
+.services-list-item {
+}
+.services-list-img {
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Team section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.team {
+  background-color: #F4F4FD;
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-list-title {
+}
+.team-list-text {
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Footer section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.footer {
+  background-color: var(--supportive-bg-color);
+}
+.footer-logo {
+}
+.footer-description {
+  color: #F4F4FD;
 }
