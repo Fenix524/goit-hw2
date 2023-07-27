@@ -19,7 +19,7 @@
 
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-▮▮   Global classes
+▮▮  GLOBAL CLASSES
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
 body{
@@ -74,46 +74,32 @@ body{
 .logo > .light-style {
   color: #f4f4fd;
 }
+
+.portfolio-nav-button{
+  color: #4D5AE5;
+  text-align: center;
+  font-weight: 500;
+  line-height: 150%;
+
+  border-radius: 4px;
+  border: 1px solid #E7E9FC;
+  background: #F4F4FD;
+  padding: 12px 24px;
+}
+.portfolio-nav-button:hover,
+.portfolio-nav-button:active{
+  border-radius: 4px;
+  background: #404BBF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  border: none;
+
+  color: #FFF
+}
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-▮▮   Header section
+▮▮   INDEX.HTML
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
-.header {
-}
-.header-navigation {
-}
-.header-logo {
-}
-.header-navigation-list {
-}
-.header-navigation-item {
-  
-}
-.header-navigation-link {
-  font-weight: 500;
-}
-.header-navigation-link:hover,
-.header-navigation-link:active {
-  color: var(--hover-link-color);
-}
-
-.header-contacts {
-}
-.header-contacts-list {
-  font-weight: 400;
-  font-style: normal; 
-}
-.header-contacts-item {
-}
-.header-contacts-link {
-}
-.header-navigation-link,
-.header-contacts-link {  
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Hero section
@@ -194,6 +180,84 @@ body{
 .team-list-title {
 }
 .team-list-text {
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   PORTFOLIO.HTML
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Portfolio section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.portfolio {
+}
+.portfolio-title {
+}
+
+.portfolio-nav-list {
+}
+.portfolio-nav-list-item {
+}
+.portfolio-nav-list-button {
+}
+
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-img {
+}
+.portfolio-list-title {
+}
+.portfolio-list-text {
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   COMMON BLOCS
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Header section
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-navigation-list {
+}
+.header-navigation-item {
+  
+}
+.header-navigation-link {
+  font-weight: 500;
+}
+.header-navigation-link:hover,
+.header-navigation-link:active {
+  color: var(--hover-link-color);
+}
+
+.header-contacts {
+}
+.header-contacts-list {
+  font-weight: 400;
+  font-style: normal; 
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+}
+.header-navigation-link,
+.header-contacts-link {  
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*
