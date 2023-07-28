@@ -13,7 +13,6 @@
 
   --main-text-color: #434455;
   --main-title-color: #2e2f42;
-
   --hover-link-color: #404bbf;
 }
 
@@ -41,7 +40,7 @@ body{
 }
 
 .title1, .title2, .title3{
-  color: var(--main-title-color);
+  color: #2e2f42;
   font-weight: 700;
 }
 .main-title {
@@ -118,11 +117,10 @@ body{
 }
 .hero-btn {
   line-height: 1.5;
-  letter-spacing: 0.04em;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
-  font-style: 16px;
+  font-size: 16px;
   color: #ffffff;
 
   cursor: pointer;
