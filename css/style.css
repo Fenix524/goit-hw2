@@ -44,17 +44,17 @@ body{
   color: var(--main-title-color);
   font-weight: 700;
 }
-.title1 {
+.main-title {
   font-size: var(--title-h1-font-size);    
 }
-.title2 {
+.section-title {
   font-size: var(--title-h2-font-size);
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.title3 {
+.in-section-title {
   font-size: var(--title-h3-font-size);
   font-weight: 500;
   line-height: 1.2;
@@ -104,10 +104,6 @@ body{
 }
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-▮▮   INDEX.HTML
-▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-
-▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Hero section
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
@@ -124,6 +120,9 @@ body{
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-style: 16px;
   color: #ffffff;
 
   cursor: pointer;
@@ -135,6 +134,7 @@ body{
 .hero-btn:active {
   background-color: #404BBF;
 }
+
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Advantages section
@@ -191,11 +191,7 @@ body{
 .team-list-text {
 }
 
-/*
-▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-▮▮   PORTFOLIO.HTML
-▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
-*/
+
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Portfolio section
@@ -217,6 +213,8 @@ body{
 .portfolio-list {
 }
 .portfolio-list-item {
+}
+.portfolio-list-link{
 }
 .portfolio-list-img {
 }
@@ -250,14 +248,14 @@ body{
   color: var(--main-title-color);
 }
 .header-contacts {
+  font-style: normal; 
+  font-weight: 400;
 }
 .header-contacts-list {  
 }
 .header-contacts-item {
 }
 .header-contacts-link {
-  font-weight: 400;
-  font-style: normal; 
 }
 .header-navigation-link,
 .header-contacts-link {  
